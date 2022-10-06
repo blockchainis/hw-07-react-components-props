@@ -1,20 +1,14 @@
+import NFT from "./components/NFT";
+
 function App() {
   return (
     <>
+      {/* header를 분리하세요 */}
+      {/* 그리고 header의 h1태그에 들어가는 내용을 props로 전달해주세요 */}
       <header>
         <h1>hello-block-chain-school</h1>
       </header>
-      <div style={{ border: "1px solid black", width: "max-content" }}>
-        <div style={{ background: "red", width: 150, height: 200 }}></div>
-        <div>
-          <p>Name</p>
-          <p>Dog 44</p>
-        </div>
-        <div>
-          <p>Price</p>
-          <p>0.423 Either</p>
-        </div>
-      </div>
+      <NFT name="cat" />
     </>
   );
 }
