@@ -10,11 +10,11 @@
 ![image](https://user-images.githubusercontent.com/114838716/194193738-46bc1a9c-d0ed-4528-9e38-2f3caeba5cdb.png)
 
 ```bash
-#07-homework 과제 클론
-git clone https://github.com/blockchainis/07-homework.git
+#hw-07-react-components-props 과제 클론
+git clone https://github.com/blockchainis/hw-07-react-components-props.git
 
-# 07-homework로 이동
-cd 07-homework
+# hw-07-react-components-props로 이동
+cd hw-07-react-components-props
 
 #해당 위치에서 VSCode실행
 code .
